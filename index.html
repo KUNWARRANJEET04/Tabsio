@@ -1,0 +1,320 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABSIO INFRA HEIGHT - Quality Bricks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">TABSIO INFRA HEIGHT</a>
+            <ul>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero">
+        <div class="hero-content">
+            <h1>BUILDING THE FUTURE, ONE BRICK AT A TIME</h1>
+            <p>High-quality, durable, and sustainable bricks for all your construction needs.</p>
+            <a href="products.html" class="cta-button">Explore Products</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="products" class="container">
+            <h2>Our Products</h2>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="fly_ash_brick.png" alt="Fly Ash Brick Type 1">
+                    <h3>Fly Ash Brick 230X110X70</h3>
+                    <p class="description">Eco-friendly, lightweight, and high-strength bricks suitable for a variety of
+                        modern constructions.</p>
+                    <a href="contact.html" class="details-button" data-product="Fly Ash Brick 230X110X70">View
+                        Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="fly_ash_brick.png" alt="Fly Ash Brick Type 2">
+                    <h3>Fly Ash Brick 250X120X75</h3>
+                    <p class="description">Durable, sustainable bricks with excellent thermal insulation and uniform
+                        finish.</p>
+                    <a href="contact.html" class="details-button" data-product="Fly Ash Brick 250X120X75">View
+                        Details</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>TABSIO INFRA HEIGHT is a leading manufacturer and supplier of high-quality building materials. Our
+                    commitment to innovation, sustainability, and customer satisfaction has made us a trusted partner in
+                    the construction industry. We utilize state-of-the-art technology to produce bricks that meet the
+                    highest standards of strength and durability, ensuring your projects are built to last.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <p class="contact-intro">Have a question or want to place an order? Fill out the form below or contact us
+                directly.</p>
+            <div class="contact-details-container">
+                <form id="contact-form">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="number" id="number" name="number" placeholder="Your PhoneNumber" required>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message / Inquiry"
+                        required></textarea>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Our Information</h3>
+                    <p><strong>Email:</strong> contact@tabsioinfra.com</p>
+                    <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+                    <p><strong>Address:</strong> 123 Construction Way, Builder City, ST 54321</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TABSIO INFRA HEIGHT. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            let name = document.getElementById("name").value;
+            let number = document.getElementById("number").value;
+            let message = document.getElementById("message").value;
+            let phoneNumber = "917093147915"; // Replace with your WhatsApp number (with country code, no + or spaces)
+            let whatsappMessage = `Hello, my name is ${name}. My PhoneNumber is ${number}. Message: ${message}`;
+            let url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+            window.open(url, "_blank");
+        });
+    </script>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/index.js",
+            "gsap/ScrollTrigger": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/ScrollTrigger.js"
+        }
+    }
+    </script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABSIO INFRA HEIGHT - Quality Bricks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .send-options {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .send-btn {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 10px 15px;
+            background-color: #25D366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .send-btn.email {
+            background-color: #0072C6;
+        }
+
+        .send-btn .material-icons {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">TABSIO INFRA HEIGHT</a>
+            <ul>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero">
+        <div class="hero-content">
+            <h1>BUILDING THE FUTURE, ONE BRICK AT A TIME</h1>
+            <p>High-quality, durable, and sustainable bricks for all your construction needs.</p>
+            <a href="products.html" class="cta-button">Explore Products</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="products" class="container">
+            <h2>Our Products</h2>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="fly_ash_brick.png" alt="Fly Ash Brick Type 1">
+                    <h3>Fly Ash Brick 230X110X70</h3>
+                    <p class="description">Eco-friendly, lightweight, and high-strength bricks suitable for a variety of
+                        modern constructions.</p>
+                    <a href="contact.html" class="details-button" data-product="Fly Ash Brick 230X110X70">View
+                        Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="fly_ash_brick.png" alt="Fly Ash Brick Type 2">
+                    <h3>Fly Ash Brick 250X120X75</h3>
+                    <p class="description">Durable, sustainable bricks with excellent thermal insulation and uniform
+                        finish.</p>
+                    <a href="contact.html" class="details-button" data-product="Fly Ash Brick 250X120X75">View
+                        Details</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>TABSIO INFRA HEIGHT is a leading manufacturer and supplier of high-quality building materials. Our
+                    commitment to innovation, sustainability, and customer satisfaction has made us a trusted partner in
+                    the construction industry. We utilize state-of-the-art technology to produce bricks that meet the
+                    highest standards of strength and durability, ensuring your projects are built to last.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <p class="contact-intro">Have a question or want to place an order? Fill out the form below or contact us
+                directly.</p>
+            <div class="contact-details-container">
+                <form id="contact-form">
+                    <form id="contact-form">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email/Phone Number" required>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Request / Title"
+                            required></textarea>
+
+                        <div class="send-options">
+                            <button type="button" class="send-btn whatsapp" id="send-whatsapp">
+                                <span class="material-icons">whatsapp</span> Send via WhatsApp
+                            </button>
+                            <button type="button" class="send-btn email" id="send-email">
+                                <span class="material-icons">email</span> Send via Email
+                            </button>
+                        </div>
+                    </form>
+                    <div class="contact-info">
+                        <h3>Our Information</h3>
+                        <p><strong>Email:</strong> tabsioinfraheightsllp@gmail.com</p>
+                        <p><strong>Phone:</strong> +917091688128</p>
+                        <p><strong>Address:</strong> A 401 Expression Exotion Gola road danapur Patna Bihar 801508</p>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TABSIO INFRA HEIGHT. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const phoneNumber = "917091688128"; // Your WhatsApp number with country code
+        const emailAddress = "ranjeet.kunwar2018@gmail.com"; // Your email address
+
+        document.getElementById("send-whatsapp").addEventListener("click", function () {
+            let name = document.getElementById("name").value;
+            let number = document.getElementById("number").value;
+            let message = document.getElementById("message").value;
+            let whatsappMessage = `Hello, my name is ${name}. My Phone Number is ${number}. Message: ${message}`;
+            let url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+            window.open(url, "_blank");
+        });
+
+        document.getElementById("send-email").addEventListener("click", function () {
+            let name = document.getElementById("name").value;
+            let number = document.getElementById("number").value;
+            let message = document.getElementById("message").value;
+            let subject = `Inquiry from ${name}`;
+            let body = `Name: ${name}%0APhone: ${number}%0AMessage: ${message}`;
+            window.location.href = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${body}`;
+        });
+    </script>
+    <!-- EmailJS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("XgSTS7llOyVFsumsn"); // Replace with your Public Key
+        })();
+
+        document.getElementById("contact-form").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            let name = document.getElementById("name").value;
+            let title = document.getElementById("message").value; // Or a separate title input if you have one
+            let email = document.getElementById("email").value; // Add this input to your form if not present
+
+            emailjs.send("service_kunwar", "template_04slvgj", {
+                from_name: name,
+                title: title,
+                email: email
+            })
+                .then(function (response) {
+                    alert("✅ Email sent successfully!");
+                    console.log("Success:", response);
+                }, function (error) {
+                    alert("❌ Failed to send email. Please try again.");
+                    console.error("Error:", error);
+                });
+        });
+    </script>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/index.js",
+            "gsap/ScrollTrigger": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/ScrollTrigger.js"
+        }
+    }
+    </script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
